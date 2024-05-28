@@ -66,7 +66,7 @@ select
 	A.UltimoNome,
 	EF.Papel
 from Filmes as F
-INNER JOIN ElencoFilme as EF
+inner join ElencoFilme as EF
 	on F.Id = EF.IdFilme
-INNER JOIN Atores as A
+inner join Atores as A
 	on A.Id = EF.IdAtor
